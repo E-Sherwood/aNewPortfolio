@@ -5,19 +5,75 @@ html {
 #bioImage {
     height: 300px;
     width: 180px;
+    float: left;
+}
+#navigation {
+    clear:both;
+}
+#galleryLink {
+    margin-left: 45px;
+    font-size:30px;
+    color: #666;
+}
+#galleryLink:hover {
+    color: red;
+}
+
+#bioText {
+    float: right;
+    margin-right: 75px;
 }
 a {
+    font-size: 20px;
     text-decoration: none;
 }
 a:hover {
     color: red;
-    background-color:black;
+    
 }
-.contactImage {
-    height: 100px;
+#contact {
+    overflow: hidden;
+}
+ .contactImage {
+    height: 150px;
     width: 150px;
-    padding: 10px;
+    /* padding: 10px;
+    float: left; */
+} 
+.contactLink {
+    position: absolute;
+    top: 95px;
+    left: 115px;
+    font-size: 40px;
+    color: #666;    
+}
+
+.layered {
+    position: relative;
+    padding:10px;
 }
 #actually {
     display: none;
+}
+button {
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+}
+h1 {
+    font-size: 45px;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: 25px;
+}
+hr {
+    clear:both;
+    height: 15px;
+    width: 100%;
+    background-color: black;
+    border: solid;
+    border-color: red;
 }
