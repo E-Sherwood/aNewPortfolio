@@ -1,0 +1,23 @@
+html {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
+#bioImage {
+    height: 300px;
+    width: 180px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color:black;
+}
+.contactImage {
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+#actually {
+    display: none;
+}
