@@ -1,6 +1,8 @@
 html {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+    background-color: black;
+    color: white;
 }
 #bioImage {
     height: 300px;
@@ -21,7 +23,7 @@ html {
 
 #bioText {
     float: right;
-    margin-right: 75px;
+    margin-right: 60px;
 }
 a {
     font-size: 20px;
@@ -41,6 +43,8 @@ a:hover {
     float: left; */
 } 
 .contactLink {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     position: absolute;
     top: 95px;
     left: 115px;
@@ -60,11 +64,18 @@ button {
     font-size: 20px;
 }
 h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-fill-color: black;
     font-size: 45px;
     text-decoration: underline;
+    text-decoration-color: #666;
+    
 }
 h2 {
-    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
 }
 p {
     font-size: 25px;
