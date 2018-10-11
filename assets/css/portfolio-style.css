@@ -4,27 +4,6 @@ html {
     background-color: black;
     color: white;
 }
-#bioImage {
-    height: 300px;
-    width: 180px;
-    float: left;
-}
-#navigation {
-    clear:both;
-}
-#galleryLink {
-    margin-left: 45px;
-    font-size:30px;
-    color: #666;
-}
-#galleryLink:hover {
-    color: red;
-}
-
-#bioText {
-    float: right;
-    margin-right: 60px;
-}
 a {
     font-size: 20px;
     text-decoration: none;
@@ -33,29 +12,7 @@ a:hover {
     color: red;
     
 }
-#contact {
-    overflow: hidden;
-}
- .contactImage {
-    height: 150px;
-    width: 150px;
-    /* padding: 10px;
-    float: left; */
-} 
-.contactLink {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    position: absolute;
-    top: 95px;
-    left: 115px;
-    font-size: 40px;
-    color: #666;    
-}
 
-.layered {
-    position: relative;
-    padding:10px;
-}
 #actually {
     display: none;
 }
@@ -88,4 +45,38 @@ hr {
     background-color: black;
     border: solid;
     border-color: red;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modalContent {
+    background-color: #666;
+    margin: 40% auto;
+    padding: 20px;
+    width: 70%;
+}
+.closeButton {
+    float: right;
+    color: #fff;
+    font-size: 15px;
+}
+.closeButton:hover, .closeButton:focus {
+    color: red;
+    cursor: pointer;
+}
+.nextButton {
+    height: 65px;
+    width: 140px;
+    position: relative;
+    bottom: 245px;
+    font-size: 350%;
+    margin-left: 45px;
 }
