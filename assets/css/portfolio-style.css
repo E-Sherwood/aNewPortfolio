@@ -61,12 +61,12 @@ hr {
     background-color: #666;
     margin: 40% auto;
     padding: 20px;
-    width: 70%;
+    width: 52.4%;
 }
 .closeButton {
     float: right;
     color: #fff;
-    font-size: 15px;
+    font-size: 30px;
 }
 .closeButton:hover, .closeButton:focus {
     color: red;
