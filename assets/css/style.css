@@ -1,7 +1,7 @@
 html {
     font-family: 'Bangers', cursive;
     letter-spacing: 1.5px;
-    background-color: black;
+    background-image: radial-gradient(#666, black, #666);
     color: white;
 }
 #bioImage {
@@ -12,13 +12,15 @@ html {
 #navigation {
     clear:both;
 }
-#galleryLink {
+.galleryLink {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     margin-left: 45px;
     font-size:30px;
     color: #666;
 }
-#galleryLink:hover {
-    color: red;
+.galleryLink:hover {
+    color: rgb(177, 0, 0);
 }
 
 #bioText {
@@ -30,7 +32,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: rgb(177, 0, 0);
     
 }
 #contact {
@@ -39,8 +41,7 @@ a:hover {
  .contactImage {
     height: 150px;
     width: 150px;
-    /* padding: 10px;
-    float: left; */
+    
 } 
 .contactLink {
     -webkit-text-stroke-width: 1px;
@@ -55,6 +56,7 @@ a:hover {
 .layered {
     position: relative;
     padding:10px;
+    width: 50%;
 }
 #actually {
     display: none;
@@ -70,7 +72,7 @@ h1 {
     -webkit-text-fill-color: black;
     font-size: 45px;
     text-decoration: underline;
-    text-decoration-color: #666;
+    text-decoration-color: black;
     
 }
 h2 {
@@ -85,7 +87,21 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.164);
     border: solid;
-    border-color: red;
+    border-color: rgb(177, 0, 0);
+}
+#side {
+    float: right;
+    margin-right: 38%;
+    margin-top: -19%;
+}
+.steamLink {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 40px;
+    color: #666;    
+}
+.steamLink:hover {
+    color: rgb(177, 0, 0);
 }

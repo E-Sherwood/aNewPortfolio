@@ -8,13 +8,13 @@ $("#actually").click(function () {
     $("#actually").hide()
 })
 // arrays for project galleries
-var nekroImageArray = []
+
 var scImageArray = ["spaceCat-Playtime", "spaceCat-Gameover", "spaceCat-Scripts", "SpaceCat-Scratch"];
 var psyImageArray = ["psygame2", "psygame3", "psygame4"];
 var mageImageArray = ["mageFightGame", "mageFight2", "mageFight3", "mageFight4"]
 var cosmicImageArray= ["cosmic2", "cosmicTriviaGame", "cosmic3", "cosmic4"]
 var gifImageArray = ["brutal", "brutal2", "brutal3", "brutal4"]
-var razputinImageArray = []
+var razputinImageArray = ["raz1", "raz3", "raz4", "raz7", "raz9"]
 $("#scImages").on("click", function (){
     $("#scModal").css("display", "block");
     console.log("open sesame")
