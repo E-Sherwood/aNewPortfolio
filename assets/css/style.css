@@ -105,3 +105,60 @@ hr {
 .steamLink:hover {
     color: rgb(177, 0, 0);
 }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modalContent {
+    background-color: #666;
+    margin: 40% auto;
+    padding: 20px;
+    width: 52.4%;
+}
+.closeButton {
+    float: right;
+    color: #fff;
+    font-size: 30px;
+}
+.closeButton:hover, .closeButton:focus {
+    color: rgb(177, 0, 0);
+    cursor: pointer;
+}
+#openEmail {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    top: 95px;
+    left: 115px;
+    font-size: 40px;
+    color: #666;    
+}
+/* #modalName {
+    height: 25px;
+    width: 245px;
+}
+#modalEmail {
+    margin-left: 6px;
+    width: 245px;
+    height: 25px;
+    
+}
+#modalMessage {
+    margin-left: 1px;
+    width: 400px;
+}
+#emailClose {
+    position: relative;
+    bottom: 490px;
+    left: 15px;
+}
+#mail {
+    width: 35%;
+} */

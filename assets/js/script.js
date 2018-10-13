@@ -95,3 +95,20 @@ $("#razImages").on("click", function (){
 $("#razClose").on("click", function(){
     $("#razModal").css("display", "none");
 })
+$("#openEmail").on("click", function(event){
+    event.preventDefault();
+    alert("don't trip, email functionality coming soon!");
+})
+// $("#emailClose").on("click", function(){
+//     $("#mailModal").css("display", "none");
+// })
+// var sendEmail = function(){
+//     var name = $("#modalName").val();
+//     var email = $("#modalEmail").val();
+//     var message = $("#modalMessage").val();
+//     window.location.href = 'mailto:e.sherwood0@yahoo.com?subject=portfolio-contact - ' + name + ' (' + email + ')' + '&body=' + message;
+//     alert("message sent!");
+// }
+// $("#send").on("click", function(){
+//     sendEmail();
+// })
