@@ -1,7 +1,7 @@
 html {
     font-family: 'Bangers', cursive;
     letter-spacing: 1.5px;
-    background-image: radial-gradient(#666, black, #666);
+    background-color:  rgb(66, 66, 66);
     color: white;
 }
 #bioImage {
@@ -15,9 +15,9 @@ html {
 .galleryLink {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    margin-left: 45px;
-    font-size:30px;
-    color: #666;
+    margin-left: 70px;
+    font-size:45px;
+    color: #fff;
 }
 .galleryLink:hover {
     color: rgb(177, 0, 0);
@@ -87,7 +87,7 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgb(177, 0, 0);
     border: solid;
     border-color: rgb(177, 0, 0);
 }
