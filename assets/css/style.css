@@ -1,13 +1,24 @@
 html {
     font-family: 'Bangers', cursive;
     letter-spacing: 1.5px;
-    background-color:  rgb(66, 66, 66);
+    background-image: linear-gradient(to right, #666, #000);
     color: white;
 }
 #bioImage {
     height: 300px;
     width: 180px;
     float: left;
+}
+@media only screen and (max-width: 786px){
+    #bioImage {
+        height: 300px;
+        width: 180px;
+        float: none;
+    }
+    #bioText {
+        float: none;
+        margin-right: 0;
+    }
 }
 #navigation {
     clear:both;
@@ -50,7 +61,7 @@ a:hover {
     top: 95px;
     left: 115px;
     font-size: 40px;
-    color: #666;    
+    color: #1d3818;    
 }
 
 .layered {
@@ -87,14 +98,21 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: rgb(177, 0, 0);
+    background-color: #1d3818;
     border: solid;
-    border-color: rgb(177, 0, 0);
+    border-color: black;
 }
 #side {
     float: right;
     margin-right: 38%;
-    margin-top: -19%;
+    margin-top: -60%;
+}
+@media only screen and (max-width: 786px){
+    #side {
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+    }   
 }
 .steamLink {
     -webkit-text-stroke-width: 1px;
@@ -140,25 +158,3 @@ hr {
     font-size: 40px;
     color: #666;    
 }
-/* #modalName {
-    height: 25px;
-    width: 245px;
-}
-#modalEmail {
-    margin-left: 6px;
-    width: 245px;
-    height: 25px;
-    
-}
-#modalMessage {
-    margin-left: 1px;
-    width: 400px;
-}
-#emailClose {
-    position: relative;
-    bottom: 490px;
-    left: 15px;
-}
-#mail {
-    width: 35%;
-} */

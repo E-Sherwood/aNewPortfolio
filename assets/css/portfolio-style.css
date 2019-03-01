@@ -2,6 +2,7 @@ html {
     font-family: 'Bangers', cursive;
     letter-spacing: 1.5px;
     background-color: rgb(66, 66, 66);
+    background-image: linear-gradient(to left, #666, #000);
     color: white;
     width: 100%
 }
@@ -46,9 +47,9 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: rgb(177, 0, 0);
+    background-color: #1d3818;
     border: solid;
-    border-color: rgb(177, 0, 0);
+    border-color: black;
 }
 .modal {
     display: none;
@@ -77,24 +78,39 @@ hr {
     cursor: pointer;
 }
 
-#floaty {
-    float: right;
-    margin-right: 33%;
-    margin-top: -16.6%;;
-}
-#spacey {
-    float: right;
-    margin-right: 30%;
-    margin-top: -16.6%;
-}
-#raz {
-    float: right;
-    margin-right: 24.1%;
-    margin-top: -16.6%;
-}
 .projTitle {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: whitesmoke;
     -webkit-text-fill-color: black;
     font-size: 40px;
 }
+#leftColumn {
+    background-color: #1d3818;
+    width: 32%;
+    padding-left: 15px;
+}
+#rightColumn {
+    background-color: #1d3818;
+    float: right;
+    width: 32%;
+    padding-left: 15px;
+    margin-right: 350px;
+    margin-top: -893px;
+    padding-top: 0px;
+}
+@media only screen and (max-width:1050px) {
+     #leftColumn {
+        background-color: #1d3818;
+        width: 90%;
+        padding-left: 15px;
+    } 
+    
+    #rightColumn {
+    background-color: #1d3818;
+    float: none;
+    width: 90%;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 0;
+}}
