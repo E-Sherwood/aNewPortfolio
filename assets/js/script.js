@@ -15,6 +15,7 @@ var mageImageArray = ["mageFightGame", "mageFight2", "mageFight3", "mageFight4"]
 var cosmicImageArray= ["cosmic2", "cosmicTriviaGame", "cosmic3", "cosmic4"]
 var gifImageArray = ["brutal", "brutal2", "brutal3", "brutal4"]
 var razputinImageArray = ["raz1", "raz3", "raz4", "raz7", "raz9"]
+
 $("#scImages").on("click", function (){
     $("#scModal").css("display", "block");
     console.log("open sesame")
@@ -99,6 +100,15 @@ $("#openEmail").on("click", function(event){
     event.preventDefault();
     alert("don't trip, email functionality coming soon!");
 })
+$("#switchLink").on("click", function(){
+    $("#switchImage").css("display", "block");
+    console.log("maybe?");
+    $("#switchClose").css("display", "block");
+})
+ $("#switchClose").on("click", function(){
+    $("#switchImage").css("display", "none");
+    $("#switchClose").css("display", "none");
+ })
 // $("#emailClose").on("click", function(){
 //     $("#mailModal").css("display", "none");
 // })

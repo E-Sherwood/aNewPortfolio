@@ -61,7 +61,7 @@ a:hover {
     top: 95px;
     left: 115px;
     font-size: 40px;
-    color: #1d3818;    
+    color: #00abc9d7;    
 }
 
 .layered {
@@ -98,7 +98,7 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: #1d3818;
+    background-color: #00abc9d7;
     border: solid;
     border-color: black;
 }
@@ -112,13 +112,18 @@ hr {
         float: none;
         margin-right: 0;
         margin-top: 0;
+    }
+    .closeButton {
+        position: relative;
+        left: 30px;
+        bottom: 540px;
     }   
 }
 .steamLink {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    font-size: 40px;
-    color: #666;    
+    font-size: 45px;
+    color: #00abc9d7;    
 }
 .steamLink:hover {
     color: rgb(177, 0, 0);
@@ -141,9 +146,21 @@ hr {
     width: 52.4%;
 }
 .closeButton {
-    float: right;
+    /* float: right; */
     color: #fff;
     font-size: 30px;
+    z-index: 1;
+    display: none;
+    position: relative;
+    left: 666px;
+    bottom: 540px;
+}
+@media only screen and (max-width: 786px){
+    .closeButton {
+        position: relative;
+        left: 30px;
+        bottom: 540px;
+    } 
 }
 .closeButton:hover, .closeButton:focus {
     color: rgb(177, 0, 0);
@@ -157,4 +174,18 @@ hr {
     left: 115px;
     font-size: 40px;
     color: #666;    
+}
+#switchImage {
+    height: 550px;
+    width: 700px;  
+    display: none;
+    float: inherit;
+}
+@media only screen and (max-width: 786px){
+    #switchImage {
+        width:100%;
+    
+}}
+#nintendoDiv {
+    margin-left: auto;
 }

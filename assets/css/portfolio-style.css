@@ -47,7 +47,7 @@ hr {
     clear:both;
     height: 15px;
     width: 100%;
-    background-color: #1d3818;
+    background-color: #00abc9d7;
     border: solid;
     border-color: black;
 }
@@ -85,12 +85,12 @@ hr {
     font-size: 40px;
 }
 #leftColumn {
-    background-color: #1d3818;
+    background-color: #00abc9d7;
     width: 32%;
     padding-left: 15px;
 }
 #rightColumn {
-    background-color: #1d3818;
+    background-color: #00abc9d7;
     float: right;
     width: 32%;
     padding-left: 15px;
@@ -100,13 +100,13 @@ hr {
 }
 @media only screen and (max-width:1050px) {
      #leftColumn {
-        background-color: #1d3818;
+        background-color: #00abc9d7;
         width: 90%;
         padding-left: 15px;
     } 
     
     #rightColumn {
-    background-color: #1d3818;
+    background-color: #00abc9d7;
     float: none;
     width: 90%;
     padding-left: 15px;
@@ -114,3 +114,6 @@ hr {
     margin-right: 0;
     padding-top: 0;
 }}
+.directLink {
+    color: #666;
+}
